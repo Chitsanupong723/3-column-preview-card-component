@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+:focus {
+    outline: none;
+}
+
+.allcard {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25rem;
+}
+
+.card1 img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card1 {
+    height: 25rem;
+    width: 550px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 5rem;
+    position: relative;
+}
+
+.card1 h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 2rem;
+}
+
+.card1 p {
+    color: hsl(0, 0%, 95%);
+    margin-top: 1.5rem;
+    text-align: start;
+    opacity: 0.6;
+    line-height: 25px;
+}
+
+.card1 .Learn1 {
+    color: hsl(31, 77%, 52%);
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+    position: absolute;
+    left: 4rem;
+    bottom: 6rem;
+}
+
+.card1 .Learn1:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.1s;
+}
+
+
+/*****************Card 2 ************************/
+
+.card2 img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card2 {
+    height: 25rem;
+    width: 550px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 5rem 4rem;
+    position: relative;
+}
+
+.card2 h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 2rem;
+}
+
+.card2 p {
+    color: hsl(0, 0%, 95%);
+    margin-top: 1.5rem;
+    text-align: start;
+    opacity: 0.6;
+    line-height: 25px;
+}
+
+.card2 .Learn2 {
+    color: hsl(184, 100%, 22%);
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+    position: absolute;
+    left: 4rem;
+    bottom: 6rem;
+}
+
+.card2 .Learn2:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.1s;
+}
+
+
+/*****************Card 3*********************/
+
+.card3 img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card3 {
+    height: 25rem;
+    width: 550px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 5rem;
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card3 h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 2rem;
+}
+
+.card3 p {
+    color: hsl(0, 0%, 95%);
+    margin-top: 1.5rem;
+    text-align: start;
+    opacity: 0.6;
+    line-height: 25px;
+}
+
+.card3 .Learn3 {
+    color: hsl(179, 100%, 13%);
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+    position: absolute;
+    left: 4rem;
+    bottom: 6rem;
+}
+
+.card3 .Learn3:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.1s;
+}
+
+@media only screen and (max-width: 375px) {
+    .allcard {
+        display: block;
+        margin: 1.1rem;
+    }
+    .card1 {
+        width: 11rem;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card2 {
+        width: 13rem;
+    }
+    .card3 {
+        width: 11rem;
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 2rem;
+    }
+}
